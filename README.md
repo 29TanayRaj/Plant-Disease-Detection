@@ -3,6 +3,7 @@
 ### Problem Statement:
 Plant diseases pose a significant threat to global food security, leading to reduced crop yields and quality, and substantial economic losses. Early and accurate diagnosis of plant diseases is crucial for effective intervention and management. However, manual inspection is time-consuming, error-prone, and often requires expert knowledge, which may not always be accessible. This project aims to develop a deep learning-based solution using a Convolutional Neural Network (CNN) model to automate plant disease detection from leaf images. The model is trained to classify 29 different plant diseases and healthy states, providing a user-friendly interface for farmers, gardeners, and agricultural professionals to quickly upload plant images and receive accurate disease predictions. This will enable timely and informed decisions to prevent the spread of diseases and improve crop health.
 
+### Using a CNN based app
 This is a CNN-based plant disease detection model deployed on Hugging Face. The app classifies plant images into 29 different categories of diseases and healthy plants. The model can identify common diseases in plants such as *Apple Scab*, *Corn Northern Leaf Blight*, *Tomato Yellow Leaf Curl Virus*, and more. The app is designed to assist users in identifying plant diseases quickly by uploading an image, which the model then analyzes to provide the top predicted disease class.
 
 ### Deployed
