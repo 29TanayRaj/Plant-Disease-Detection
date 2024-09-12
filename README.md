@@ -1,8 +1,14 @@
-# Plant Disease Detection App
+# Plant Disease Detection App 🌱 🌿
+
+### Problem Statement:
+Plant diseases pose a significant threat to global food security, leading to reduced crop yields and quality, and substantial economic losses. Early and accurate diagnosis of plant diseases is crucial for effective intervention and management. However, manual inspection is time-consuming, error-prone, and often requires expert knowledge, which may not always be accessible. This project aims to develop a deep learning-based solution using a Convolutional Neural Network (CNN) model to automate plant disease detection from leaf images. The model is trained to classify 29 different plant diseases and healthy states, providing a user-friendly interface for farmers, gardeners, and agricultural professionals to quickly upload plant images and receive accurate disease predictions. This will enable timely and informed decisions to prevent the spread of diseases and improve crop health.
 
 This is a CNN-based plant disease detection model deployed on Hugging Face. The app classifies plant images into 29 different categories of diseases and healthy plants. The model can identify common diseases in plants such as *Apple Scab*, *Corn Northern Leaf Blight*, *Tomato Yellow Leaf Curl Virus*, and more. The app is designed to assist users in identifying plant diseases quickly by uploading an image, which the model then analyzes to provide the top predicted disease class.
 
-## Model Overview
+### Deployed
+HuggingFace  🤗  - https://huggingface.co/spaces/TanayRaj/Plant-Disease-Detector
+
+## Model Overview 🧠
 
 - **Model Architecture**: Sequential CNN
 - **Total Parameters**: 3,831,556 (14.62 MB)
@@ -10,11 +16,11 @@ This is a CNN-based plant disease detection model deployed on Hugging Face. The 
 - **Non-Trainable Parameters**: 1,088 (4.25 KB)
   
 The model was trained on a dataset containing:
-- **Training Images**: 53,693 images across 29 classes.
-- **Testing Images**: 12,067 images across 29 classes.
-- **Validation Images**: 1,358 images across 29 classes.
+- 📂 **Training Images**: 53,693 images across 29 classes.
+- 🧪 **Testing Images**: 12,067 images across 29 classes.
+- 🔍 **Validation Images**: 1,358 images across 29 classes.
 
-### Supported Plant Diseases
+### 🌾 Supported Plant Diseases
 The model supports detection for the following plant diseases and healthy plants:
 
 1. Apple Black Rot
@@ -47,12 +53,12 @@ The model supports detection for the following plant diseases and healthy plants
 28. Tomato Septoria Leaf Spot
 29. Tomato Yellow Leaf Curl Virus
 
-## Features
+## ✨ Features
 
 - **Real-Time Disease Detection**: Upload an image of a plant leaf to receive a diagnosis from the model.
 - **Model Accuracy**: The model is trained to provide accurate predictions across 29 different classes.
 - **Top 5 Predictions**: The app displays the top 5 disease categories for each uploaded image, including probabilities for each.
 - **Example Images**: Predefined example images are provided to test the app easily.
 
-## Frontend: Gradio Interface
+## 🎨 Frontend: Gradio Interface
 The frontend is powered by Gradio, offering a simple and interactive interface to upload images, view results, and test sample images.
