@@ -19,7 +19,7 @@ import gradio as gr
 import os
 
 # importing the model 
-model = keras.models.load_model('my_model.keras')
+model = keras.models.load_model('CNN_Model.keras')
 
 # Function to get the predictions 
 def get_image_dim(file_path):
